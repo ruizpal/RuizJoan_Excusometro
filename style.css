@@ -11,11 +11,43 @@ main{
     margin: auto;
 }
 
+.excusa{
+    color: crimson;
+    font-size: 1.25rem;
+    font-weight: bold;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.excusa h3{
+    color: crimson;
+    font-size: 1.5rem;
+    margin-top: 0;
+}
+
 header{
     padding: 40px;
     text-align: center;
     background-color: #333;
     color: white;
+}
+
+nav{
+    background-color: #444;
+    padding: 16px;
+    text-align: center;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    margin: 0 12px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+nav a:hover{
+    color: crimson;
 }
 
 h1 {
@@ -26,6 +58,16 @@ h1 {
 p{
     color: crimson;
     line-height: 1.5;
+}
+
+#intro{
+    color: crimson;
+    background-color: white;
+}
+
+#estado h2{
+    color: crimson;
+    background-color: white;
 }
 
 header p{
