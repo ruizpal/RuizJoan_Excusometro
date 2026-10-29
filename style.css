@@ -28,7 +28,6 @@ main{
 header{
     padding: 40px;
     text-align: center;
-    background-color: #333;
     color: white;
 }
 
@@ -37,7 +36,6 @@ nav{
     padding: 16px;
     text-align: center;
 }
-
 nav a{
     color: white;
     text-decoration: none;
@@ -128,4 +126,31 @@ button{
 
 .comprobador p {
   margin-top: 10px;
+}
+
+.evidencias img {
+  max-width: 30%;
+  height: 10%;
+  border-radius: 10px;
+  margin-top: 10px;
+  display: block;
+}
+
+.evidencia {
+  background-color: #010000;
+  padding: 10px;
+  margin: 1.5em 0;
+  /*border-width: 0.15em;
+  border-style: solid;
+  border-color: #ccc; */
+  border: 0.15em solid #ccc;
+}
+
+.evidencia figcaption {
+  font-size: 0.9em;
+  font-weight: bold;
+}
+
+.expediente-header{
+    background-image: url("img/carpeta.jpg");
 }
