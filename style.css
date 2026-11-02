@@ -154,3 +154,20 @@ button{
 .expediente-header{
     background-image: url("img/carpeta.jpg");
 }
+
+.panel-recomendaciones{
+    Margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.justificante{
+    font-weight: bold;
+}
+
+.contacto{
+    text-color: crimson;
+    display: inline-block;
+    background-color: yellow;
+    padding: 10px;
+}
