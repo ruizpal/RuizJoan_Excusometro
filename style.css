@@ -171,3 +171,40 @@ button{
     background-color: yellow;
     padding: 10px;
 }
+
+.expediente-header{
+    position:relative
+}
+
+.clasificado{
+    position:absolute;
+    top: 1em;
+    right: 1em;
+    background-color: crimson;
+    color: white;
+    padding: 0.4em 0.7em;
+    border: 0.15em solid white;
+    font-weight: bold;
+}
+
+.aviso{
+    position:fixed;
+    right: 1em;
+    bottom: 1em;
+    background-color: grey;
+    color: ghostwhite;
+    padding: .6em 1em;
+    border: .1em solid white;
+}
+
+.float{
+    float: left;
+    width: 12em;
+    margin-right: 1em;
+    margin-bottom: .5em;
+    border: .15em solid yellow;
+}
+
+.evidencias{
+    overflow: auto;
+}
