@@ -4,7 +4,7 @@ body{
     background-color: rgb(0, 0, 0);
     margin: 0;
     font-family: "Edu QLD Hand";
-    color: #999;
+    color: #000000;
 }
 main{
     padding: 30px;
@@ -207,4 +207,58 @@ button{
 
 .evidencias{
     overflow: auto;
+}
+
+.campo{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1em;
+}
+
+.form-escusa{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.campo > label, fieldset > legend{
+    font-weight: bold;
+    display: block;
+}
+
+input[type="text"], input[type="email"],input[type="date"], textarea, select{
+    padding: .5em;
+    border: .1em solid #ccc;
+    border-radius: .3em;
+    font-size: 1em;
+}
+
+textarea{
+    resize: vertical;
+}
+
+input:focus, select:focus, textarea:focus{
+    outline: none;
+    border-color: crimson;
+    box-shadow: 0 0 5px crimson;
+}
+
+fieldset.campo{
+    border: .1em solid #ccc;
+    border-radius: .3em;
+    padding: 1em;
+}
+
+fieldset.campo label{
+    display: block;
+    margin-bottom: .5em;
+}
+
+.form-escusa button{
+    display: inline-block;
+    padding: .5em 1em;
+    background-color: crimson;
+    color: white;
+    border: 0.12em solid white;
+    cursor: pointer;
 }

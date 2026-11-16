@@ -22,6 +22,8 @@
         <a href="#intro">¿Qué es el Excusómetro?</a>
         <a href="#funcionamiento">Cómo funciona</a>
         <a href="#estado">Estado del sistema</a>
+        <a href="#comprueba-tu-excusa">Comprueba tu excusa</a>
+        <a href="#registro">Registro de excusas</a>
     </nav>
 
     <main>
@@ -100,6 +102,68 @@
         </details>
     </section>
 
+    <section class="registro">
+        <h2>Registro de excusas</h2>
+        <p>El Excusómetro mantiene un registro de todas las excusas analizadas,
+        <form action="" class="form-escusa">
+            <div class="campo">
+                <label for="nombre">Nombre:</label>
+                <input id="nombre" type="text" required minlength="2" maxlength="50">
+            </div>
+            <div class="campo">
+                <label for="email">Email:</label>
+                <input id="email" type="email" required>
+            </div>
+            <div class="campo">
+                <label for="fecha">Fecha del incidente:</label>
+                <input id="fecha" type="date" required>
+            </div>
+            <div class="campo">
+                <label for="drama">Nivel de dramatismo:</label>
+                <select name="drama" id="drama" required>
+                    <option value="">Selecciona un nivel</option>
+                    <option value="bajo">Bajo</option>
+                    <option value="medio">Medio</option>
+                    <option value="alto">Alto</option>
+                </select>
+            </div>
+            <fieldset>
+                <legend>Categoría principal</legend>
+                <label for="">
+                    <input type="radio" name="categoria" value="organizacion" required>
+                    problema técnico
+                </label>
+                <label for="">
+                    <input type="radio" name="categoria" value="salud" required>
+                    problema de salud
+                </label>
+                <label for="">
+                    <input type="radio" name="categoria" value="personal" required>
+                    problema personal
+                </label>
+                <label for="">
+                    <input type="radio" name="categoria" value="otro" required>
+                    otro
+                </label>
+            </fieldset>
+
+            <div class="campo">
+                <label for="">
+                    <input type="checkbox" name="declaracion" required>
+                    Confirmo que esta es la informacion de los hechos
+                </label>
+            </div>
+
+            <div class="campo">
+                <label for="excusa">Declaracion completa:</label>
+                <textarea id="excusa" name="excusa" required minlength="10" maxlength="200" rows="6" required></textarea>
+            </div>
+
+            <button type="submit">Enviar registro</button>
+        </form>
+
+    </section>
+
     <footer>
         <p> 2026 Excusómetro. Todos los derechos reservados.</p>
         <a href="https://github.com/ruizpal/RuizJoan_Excusometro/tree/desarrollo" target="_blank">Codigo fuente en
@@ -109,7 +173,6 @@
     <div class="aviso">
         sistema operativo
     </div>
-
 </body>
 
 </html>
